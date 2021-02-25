@@ -15,7 +15,6 @@ public class BankAccountTester {
 		double balance;
 		
 		System.out.print("How much would you like to start your bank account with?: ");
-
 		startBal = in.nextDouble();
 		
 		// Create a BankAccount object with the amount given by the user
