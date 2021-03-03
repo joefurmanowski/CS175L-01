@@ -50,7 +50,7 @@ public class BankAccount
    }
 
    /**
-   	   Calculates the interest for this account.
+      Calculates the interest for this account.
     */
    public void calcInterest()
    {
