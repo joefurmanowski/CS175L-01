@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"RoachPopulation","l":"breed()"},{"p":"<Unnamed>","c":"RoachPopulation","l":"getRoaches()"},{"p":"<Unnamed>","c":"RoachPopulation","l":"RoachPopulation(double)","u":"%3Cinit%3E(double)"},{"p":"<Unnamed>","c":"RoachPopulation","l":"spray(double)"}];updateSearchResults();
