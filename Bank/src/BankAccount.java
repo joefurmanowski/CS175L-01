@@ -56,7 +56,7 @@ public class BankAccount
    {
 	  double interest = balance * interestRate;
 	  balance = balance + interest;
-	  System.out.println("	Interest: " + interest);
+	  //System.out.printf("	Interest: %.2f\n", interest);
    }
 
    /**
@@ -64,6 +64,15 @@ public class BankAccount
       @return the current balance
    */
    public double getBalance()
+   {
+      return balance;
+   }
+   
+   /**
+      Gets the time it will take for the account to reach the balance threshold
+      @return the time (in months) to reach the threshold
+    */
+   public double timeToThreshold()
    {
       return balance;
    }
