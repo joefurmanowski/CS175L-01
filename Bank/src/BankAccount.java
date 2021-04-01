@@ -67,13 +67,4 @@ public class BankAccount
    {
       return balance;
    }
-   
-   /**
-      Gets the time it will take for the account to reach the balance threshold
-      @return the time (in months) to reach the threshold
-    */
-   public double timeToThreshold()
-   {
-      return balance;
-   }
 }
