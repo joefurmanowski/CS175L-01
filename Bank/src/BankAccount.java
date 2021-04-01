@@ -60,7 +60,7 @@ public class BankAccount
    }
   
    /**
-     Restores the balance to the original opening balance.
+     Restores the account balance to the original opening balance.
      @param bal the original opening balance
    */
    public void restoreOpeningBalance(double bal)
