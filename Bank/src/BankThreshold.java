@@ -36,8 +36,7 @@ public class BankThreshold {
 				months++;
 			}
 			
-			// Restore opening balance
-			myBankAccount.restoreOpeningBalance(startBal);
+			myBankAccount.restoreOpeningBalance(startBal); //
 			
 			System.out.println("	It will take " + months + " months to reach the threshold of " + threshold + ".");
 			System.out.print("Enter the threshold for your account balance to reach or 'End': ");
