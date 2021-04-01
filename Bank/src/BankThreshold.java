@@ -26,6 +26,8 @@ public class BankThreshold {
 
 		while (in.hasNextDouble())
 		{
+			months = 0;
+			
 			double threshold = in.nextDouble();
 			
 			while (myBankAccount.getBalance() < threshold)
@@ -34,9 +36,13 @@ public class BankThreshold {
 				months++;
 			}
 			
+			// Restore opening balance
+			myBankAccount.restoreOpeningBalance(startBal);
+			
 			System.out.println("	It will take " + months + " months to reach the threshold of " + threshold + ".");
 			System.out.print("Enter the threshold for your account balance to reach or 'End': ");
 		}
+		
 		System.out.println("	No threshold entered. Goodbye!");
 				
 		// Stop asking the user for input

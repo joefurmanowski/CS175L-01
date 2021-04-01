@@ -58,6 +58,15 @@ public class BankAccount
 	  balance = balance + interest;
 	  //System.out.printf("	Interest: %.2f\n", interest);
    }
+  
+   /**
+     Restores the balance to the original opening balance.
+     @param bal the original opening balance
+   */
+   public void restoreOpeningBalance(double bal)
+   {
+	  balance = bal;
+   }
 
    /**
       Gets the current balance of this bank account.
