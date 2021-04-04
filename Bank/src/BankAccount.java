@@ -65,7 +65,7 @@ public class BankAccount
    */
    public void restoreOpeningBalance(double bal)
    {
-	  balance = bal; //
+	  balance = bal;
    }
 
    /**
