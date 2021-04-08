@@ -7,7 +7,6 @@ public class CreditCard {
 		Scanner in = new Scanner(System.in);
 		
 		String creditCardNumber = "";
-		//4123-5678-9012-3450
 		int i = 0;
 		while (!creditCardNumber.equals("-99"))
 		{
